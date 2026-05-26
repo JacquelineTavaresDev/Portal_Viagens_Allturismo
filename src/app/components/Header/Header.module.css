@@ -1,0 +1,33 @@
+.header {
+  background-color: #107acc;
+  padding: 16px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.header nav a {
+  margin-left: 16px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header nav a:hover {
+  text-decoration: underline;
+}
+
+.header nav a:focus-visible {
+  outline: 2px solid white;
+  outline-offset: 2px;
+}

@@ -1,0 +1,36 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.titulo {
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  margin-bottom: 16px;
+}
+
+.imagemWrapper {
+  position: relative;
+  width: 100%;
+  height: clamp(260px, 40vw, 500px);
+  overflow: hidden;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+  contain: content;
+}
+
+.imagem {
+  object-fit: cover;
+}
+
+.descricao {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.erro {
+  text-align: center;
+  padding: 40px;
+  color: #333;
+}
