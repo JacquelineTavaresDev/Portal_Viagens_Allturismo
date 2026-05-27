@@ -14,19 +14,19 @@ Lighthouse
 AVIF Images
 
 ## Como Executar o Projeto:
-1. Instalar as dependências
+1. Instalar as dependências: 
 npm install
 
-2. Rodar o projeto em ambiente de desenvolvimento
+2. Rodar o projeto em ambiente de desenvolvimento: 
 npm run dev
 
-3. Abrir no navegador
+3. Abrir no navegador: 
 http://localhost:3000
 
-4. Gerar build de produção
+4. Gerar build de produção: 
 npm run build
 
-5. Executar build de produção
+5. Executar build de produção: 
 npm run start
 
 ## Gargalos Identificados
