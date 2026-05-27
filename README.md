@@ -1,4 +1,4 @@
-## Portal de Viagens AllTurismo
+# Portal de Viagens AllTurismo
 
 Projeto desenvolvido com Next.js com foco em otimização de performance web, acessibilidade, SEO e boas práticas modernas de front-end.
 
@@ -39,7 +39,7 @@ src/
 ## Como Instalar o Projeto:
 
 1. Clonar o repositório
-git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
+git clone https://github.com/JacquelineTavaresDev/Portal_Viagens_Allturismo.git
 
 2. Entrar na pasta do projeto
 cd nome-do-projeto
@@ -110,23 +110,6 @@ Navegação semântica
 Focus visible em links e botões
 Textos alternativos em imagens
 
-## Comparativo Lighthouse
-- Antes das otimizações
-| Métrica        | Resultado |
-| -------------- | --------- |
-| Performance    | 72        |
-| Accessibility  | 83        |
-| Best Practices | 86        |
-| SEO            | 80        |
-
-- Depois das otimizações
-| Métrica        | Resultado |
-| -------------- | --------- |
-| Performance    | 88        |
-| Accessibility  | 95        |
-| Best Practices | 78        |
-| SEO            | 100       |
-
 ## Observação sobre “Práticas Recomendadas”
 A pontuação reduzida na categoria “Práticas Recomendadas” ocorreu devido à execução local do projeto em ambiente HTTP (localhost), sem HTTPS configurado.
 
@@ -170,4 +153,5 @@ Layout responsivo
 
 ## Desenvolvido por:
 Francisca Jacqueline Ribeiro Tavares
+
 Estudante de Desenvolvimento Web
