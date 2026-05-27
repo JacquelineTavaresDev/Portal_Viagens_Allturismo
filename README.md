@@ -2,7 +2,7 @@
 
 Projeto desenvolvido com Next.js com foco em otimização de performance web, acessibilidade, SEO e boas práticas modernas de front-end.
 
-O sistema apresenta destinos turísticos utilizando uma aplicação leve, responsiva e otimizada, aplicando técnicas reais de melhoria de performance analisadas através do Lighthouse do Google Chrome.
+A aplicação apresenta destinos turísticos utilizando uma interface leve, responsiva e otimizada, aplicando técnicas reais de melhoria de desempenho analisadas através do Lighthouse do Google Chrome.
 
 ## Tecnologias Utilizadas
 Next.js 15
@@ -13,80 +13,37 @@ Next/Image
 Lighthouse
 AVIF Images
 
-## Objetivo da Atividade
-Aplicar técnicas de otimização de performance web utilizando:
-
-Lighthouse
-Chrome DevTools
-Otimização de imagens
-Lazy Loading
-SEO
-Minificação automática
-Componentização
-Acessibilidade
-
-## Estrutura do Projeto
-src/
- ├── app/
- │    ├── components/
- │    ├── destinos/
- │    ├── lib/
- │    ├── styles/
- │    ├── types/
- │    ├── layout.tsx
- │    └── page.tsx
-
-## Como Instalar o Projeto:
-
-1. Clonar o repositório
-git clone https://github.com/JacquelineTavaresDev/Portal_Viagens_Allturismo.git
-
-2. Entrar na pasta do projeto
-cd nome-do-projeto
-
-3. Instalar as dependências
+## Como Executar o Projeto:
+1. Instalar as dependências
 npm install
-ou
-yarn install
 
-4. Rodar o projeto em ambiente de desenvolvimento
+2. Rodar o projeto em ambiente de desenvolvimento
 npm run dev
-ou
-yarn dev
 
-5. Abrir no navegador
+3. Abrir no navegador
 http://localhost:3000
 
-### Build de Produção
-Para gerar a versão otimizada de produção:
+4. Gerar build de produção
 npm run build
 
-Para executar a build:
+5. Executar build de produção
 npm run start
 
-## Análise de Performance
-A análise foi realizada utilizando:
-
-Lighthouse (Chrome DevTools)
-Aba Performance do Chrome
-
-Também foram realizados testes simulando conexões lentas para avaliar o comportamento da aplicação em diferentes cenários de rede.
-
 ## Gargalos Identificados
-Durante a análise inicial foram encontrados alguns problemas comuns de performance:
+Durante a análise inicial com o Lighthouse foram encontrados alguns problemas comuns de performance:
 
 Imagens não otimizadas
 Necessidade de melhorar SEO
-Possíveis melhorias de acessibilidade
-Carregamento excessivo de recursos visuais
-Falta de otimização de renderização
+Melhorias possíveis de acessibilidade
+Recursos visuais impactando carregamento
+Necessidade de otimização da renderização
 
 ## Melhorias Aplicadas
 - Otimização de Imagens
 Conversão das imagens para formato .avif
 Utilização do componente next/image
 Configuração de sizes
-Lazy loading automático do Next.js
+Lazy loading automático
 
 - Performance
 Estrutura leve sem bibliotecas desnecessárias
@@ -100,15 +57,34 @@ Redução de renderizações desnecessárias
 Metadata global
 Metadata dinâmica nas páginas
 Estrutura semântica correta
-Uso apropriado de headings
 URLs amigáveis
 
 - Acessibilidade
 Uso de aria-label
 Contraste adequado
 Navegação semântica
-Focus visible em links e botões
+Focus visible em links
 Textos alternativos em imagens
+
+## Comparativo Lighthouse
+- Antes das otimizações
+<img width="447" height="141" alt="antes" src="https://github.com/user-attachments/assets/9c11147b-ef4b-49f7-81ab-35ec8bf95de5" />
+
+Comentários:
+Imagens ainda não estavam totalmente otimizadas.
+SEO possuía melhorias pendentes.
+Acessibilidade apresentava pontos de melhoria.
+O carregamento inicial estava mais pesado.
+
+- Depois das otimizações
+<img width="473" height="132" alt="depois" src="https://github.com/user-attachments/assets/b66981e4-98cd-41ae-a126-4eb8730050aa" />
+
+Comentários:
+A otimização de imagens trouxe melhora significativa no carregamento.
+O uso de AVIF reduziu o peso dos arquivos.
+A utilização do next/image melhorou carregamento e renderização.
+Melhorias semânticas aumentaram a pontuação de SEO e acessibilidade.
+O projeto apresentou melhor estabilidade e experiência do usuário.
 
 ## Observação sobre “Práticas Recomendadas”
 A pontuação reduzida na categoria “Práticas Recomendadas” ocorreu devido à execução local do projeto em ambiente HTTP (localhost), sem HTTPS configurado.
@@ -141,15 +117,6 @@ O projeto foi desenvolvido com foco em responsividade para:
 Desktop
 Tablet
 Mobile
-
-## Funcionalidades
-Página inicial
-Listagem de destinos
-Página dinâmica de detalhes
-Navegação otimizada
-SEO dinâmico
-Imagens otimizadas
-Layout responsivo
 
 ## Desenvolvido por:
 Francisca Jacqueline Ribeiro Tavares
