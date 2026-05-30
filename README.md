@@ -5,7 +5,7 @@ Projeto desenvolvido com Next.js com foco em otimização de performance web, ac
 A aplicação apresenta destinos turísticos utilizando uma interface leve, responsiva e otimizada, aplicando técnicas reais de melhoria de desempenho analisadas através do Lighthouse do Google Chrome.
 
 ## Tecnologias Utilizadas
-Next.js 15
+Next.js 16.1.1
 React
 TypeScript
 CSS Modules
@@ -68,7 +68,7 @@ Textos alternativos em imagens
 
 ## Comparativo Lighthouse
 - Antes das otimizações
-<img width="447" height="141" alt="antes" src="https://github.com/user-attachments/assets/9c11147b-ef4b-49f7-81ab-35ec8bf95de5" />
+![Antes](./relatorios/antes.png)
 
 Comentários:
 Imagens ainda não estavam totalmente otimizadas.
@@ -77,7 +77,7 @@ Acessibilidade apresentava pontos de melhoria.
 O carregamento inicial estava mais pesado.
 
 - Depois das otimizações
-<img width="473" height="132" alt="depois" src="https://github.com/user-attachments/assets/b66981e4-98cd-41ae-a126-4eb8730050aa" />
+![Depois](./relatorios/depois.png)
 
 Comentários:
 A otimização de imagens trouxe melhora significativa no carregamento.
